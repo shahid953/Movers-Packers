@@ -21,9 +21,9 @@ function App() {
       <HowItWorks />
       <CitiesSection />
       <ToolsSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
       <ReviewsSection />
-      <FAQSection />
+      {/* <FAQSection /> */}
       <ContactSection />
       <FeedbackSection />
       <Footer />
