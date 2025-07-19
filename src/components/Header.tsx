@@ -6,6 +6,21 @@ const Header = () => {
     <header className="bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
+          
+          {/* Logo - Center */}
+          <div className="flex items-center space-x-2 mx-8">
+            {/* <div className="bg-yellow-400 p-2 rounded-lg">
+              <Package className="h-8 w-8 text-white" />
+            </div> */}
+            <div className="bg-white-400 p- 2 rounded-lg">
+               <img src = "/photo/logo.jpg" width="40" height="40"/>
+            </div>
+            <div>
+              <h1 className="text-xl font-bold text-gray-900">Mamta Packers & Movers</h1>
+              {/* <p className="text-sm text-gray-600"></p> */}
+            </div>
+          </div>
+          
           {/* Search Bar */}
           <div className="hidden md:flex items-center flex-1 max-w-md">
             <div className="relative w-full">
@@ -18,19 +33,7 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Logo - Center */}
-          <div className="flex items-center space-x-2 mx-8">
-            {/* <div className="bg-yellow-400 p-2 rounded-lg">
-              <Package className="h-8 w-8 text-white" />
-            </div> */}
-            <div className="bg-white-400 p- 2 rounded-lg">
-               <img src = "/photo/logo.jpg" width="40" height="40"/>
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-900">Mamta Packers</h1>
-              <p className="text-sm text-gray-600">& Movers</p>
-            </div>
-          </div>
+          
 
           {/* Social Media Icons */}
           <div className="flex items-center space-x-4 flex-1 justify-end">

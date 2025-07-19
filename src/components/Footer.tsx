@@ -86,7 +86,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
-            © 2024 <span className="text-yellow-400 font-semibold">Mamta Packers and Movers</span> — All Rights Reserved.
+            © 2010 - 2025 <span className="text-yellow-400 font-semibold">Mamta Packers and Movers</span> — All Rights Reserved.
           </p>
         </div>
       </div>

@@ -40,11 +40,11 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Right Section - About */}
           <div className="space-y-6 lg:order-2">
-            <div className="space-y-4">
+            <div className="space-mt-4">
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900">
                 <span className="text-yellow-600">Mamta</span> Packers
-                <br />
-                <span className="text-gray-700">& Movers</span>
+              
+                <span className="text-gray-700"> & Movers</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
                 We are dedicated to making every relocation smooth, secure, and completely hassle-free for our customers.
@@ -57,6 +57,48 @@ const HeroSection = () => {
               </h3>
               <p className="text-gray-600 leading-relaxed">
                 Aimed at making every relocation procedure seamless and secure, our platform serves as the best online hub to hire verified, professional packers and movers both across India and internationally.
+              </p>
+            </div>
+
+
+             <div className="bg-white p-6 rounded-xl shadow-lg border border-yellow-200">
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                Who we are ?
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Founded in 2015, we started as a loading/unloading specialist serving events, shifting operations, and more. As customer needs evolved, we expanded to full packing, moving, and logistics services. Over the years, our business has grown—yet our core focus remains the same: safe handling, on-time delivery, and earning trust one client at a time.
+
+                 Vision Statement
+                 “To be the first choice in comprehensive logistics and relocation solutions—known for our safety-first mindset, punctual service, and unwavering client trust.”
+
+                  Mission Statement
+                  Deliver excellence in packing, moving, loading, and unloading through a skilled, customer-focused team.
+
+                  Champion safety by using secure methods, protective packaging, and quality equipment to safeguard every item.
+
+                  Prioritize timeliness through streamlined operations and proactive communication—so schedules matter, and we meet them.
+
+                  Earn and keep client trust by treating goods as our own and backing every service with transparent, reliable support.
+
+                  Core Values
+                  Safety & Care: Every item is precious. We handle your goods with utmost protection.
+
+                  Reliability: On-time delivery and consistent execution build real peace of mind.
+
+                  Trust & Integrity: We deliver what we promise—and own up if anything goes off‑track.
+
+                  Adaptability: As needs change, so do we—adding services, technology, and responsiveness.
+
+                  Client-Centric Service: Your satisfaction drives us. We listen, customize, and follow through.
+
+                  Why We Stand Out
+                  A Decade of Experience since 2015 across events, logistics, and relocations.
+
+                 Integrated Solutions: From packing to unpacking—you count on us for complete end-to-end service.
+
+                  Client Trust: Our success is built on long-term relationships and repeated referrals.
+
+                  Commitment to Advancement: As new challenges arise, we evolve—adding services to stay ahead.
               </p>
             </div>
           </div>
